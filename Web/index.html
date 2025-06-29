@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foohyung Web Dev</title>
+</head>
+<body>
+    <h1>HTML Heading</h1>
+    <h2>HTML Heading</h2>
+    <h3>HTML Heading</h3>
+    <h4>HTML Heading</h4>
+    <h5>HTML Heading</h5>
+    <h6>HTML Heading</h6>
+
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima illo distinctio amet delectus tempore labore, ipsa impedit assumenda sed necessitatibus nemo consectetur eligendi commodi qui explicabo natus veritatis laborum esse. 
+    </p>
+
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima illo distinctio amet delectus tempore labore, ipsa impedit assumenda sed necessitatibus nemo consectetur eligendi commodi qui explicabo natus veritatis laborum esse. 
+    </p>
+
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima illo distinctio amet delectus tempore labore, ipsa impedit assumenda sed necessitatibus nemo consectetur eligendi commodi qui explicabo natus veritatis laborum esse. 
+    </p>
+
+    <!-- ทำLink -->
+    <a href="https://www.google.com" target="_blank">Go to Google</a>
+    <a href="about.html">Go to about page</a><br>
+
+    <!-- เพิ่มรูป -->
+    <img width="300" height="100" src="https://img.freepik.com/free-photo/anime-eyes-illustration_23-2151660535.jpg" alt="Anime">
+    <img width="300" height="100" src="https://img.freepik.com/free-photo/anime-eyes-illustration_23-2151660533.jpg?t=st=1751086634~exp=1751090234~hmac=19a02f1fddf8ab32ed0a23f44277471fe48050d80404e7e51959d1cbb6c65a2e" alt="Anime2">
+
+    <!-- ทำช่องตาราง -->
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>Position</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Foo</td>
+            <td>20</td>
+            <td>Web Dev</td>
+        </tr>
+        <tr><td>2</td>
+            <td>Foohyung</td>
+            <td>25</td>
+            <td>Web Dev</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>hgh</td>
+            <td>30</td>
+            <td>Web Dev</td>
+        </tr>
+    </table>
+    <!--ทำListแบบจุด  -->
+    <ul>  
+        <li>DOG</li>
+        <li>CAT</li>
+        <li>MOO</li>
+    </ul>
+    <!-- ทำ List แบบตัวเลข -->
+    <ol>
+        <li>Cocoa</li>
+        <li>milk</li>
+        <li>Tea</li>
+    </ol>
+    
+    <!-- ทำตัวหนา -->
+    <b>Bold text</b> 
+    <!-- ข้อความสำคัญ -->
+    <Strong>Important text</Strong>
+    <!-- ทำตัวเอียง -->
+    <i>Italic text</i>
+    <!-- เน้นข้อความ -->
+    <em>Emphasized text</em>
+    <!-- ทำเครื่องหมาย -->
+    <Mark>Mark text</Mark>
+    <!-- ทำข้อความเล็ก -->
+    <small>Small text</small>
+    <!-- ข้อความที่ลบ -->
+    <del>Deleted text</del>
+    <!-- แทรกข้อความ -->
+    <ins>Inserted text</ins>
+    <!-- ข้อความห้อย -->
+    <sub>Subcript text</sub>
+    <!-- ข้อความยก -->
+    <sup>Superscript text</sup>
+
+    <!-- Form ใช้สำหรับรวบรวมการป้อนข้อมูลเพื่อส่งไปยังServer -->
+     <form action="">
+         <fieldset>
+            <legend>Personal</legend>
+        <label for="first name">First name</label> <br>
+        <input type="text" name="first name" placeholder="enter your first name">  <br>
+        <label for="last name">Last name</label> <br>
+        <input type="text" name="Last name" placeholder="enter your last name"> <br>
+        <input type="button" value="submit"> <br>
+         </fieldset>
+
+         <!-- ทำกล่องเลือกข้อความที่option ไว้ -->
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="toyota">toyota</option>
+            <option value="Honda" selected>honda</option>
+            <option value="byd">Byd</option>
+        </select> <br>
+
+        <!-- ทำกล่องข้อความให้พิมพ์แล้วดึงข้อความตาม option ที่ set ไว้ -->
+        <input list="browsers" name="browsers">
+        <datalist id="browsers">
+            <option value="volvo">
+            <option value="toyota">
+            <option value="Honda">
+            <option value="byd">
+        </datalist> <br>
+
+        <!-- ทำกล่องข้อความที่ขยายได้ -->
+        <textarea name="" id=""></textarea> <br>
+        <button type="submit">Submit</button><br>
+       
+       <!-- tag input ต่างๆ -->
+        <input type="file"> <br>
+        <input type="number"> <br>
+        <input type="password"> <br>
+        <input type="checkbox">checkbox <br> 
+        <input type="radio"> <br>
+        <input type="range"> <br>
+        <input type="reset"> <br>
+        <input type="search"> <br>
+        <input type="submit"> <br>
+        <button type="submit">submit</button> <br>
+        <input type="tel"> <br>
+        <input type="time"> <br>
+        <input type="color"> <br>
+        <input type="url"> <br>
+        <input type="week"> <br>
+        <input type="datetime-local"> <br>
+        <input type="date"> <br>
+        <input type="email"> <br>
+     </form>
+
+     <!-- Block Element จะเริ่มบรรทัดใหม่ให้ กว้าง 100% -->
+     <div>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, cupiditate!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, eum!
+        </p>
+     </div>
+
+     <!-- Inline ไม่เริ่มบรรทัดใหม่ให้ กว้างตามเนื้อหา // hr ใช้ขีดเส้น-->
+      <hr>
+
+      <a href="">Home</a>
+      <a href="">About</a>
+      <a href="">Blog</a>
+      <a href="">Contact</a>
+
+      <span>text1</span>
+      <span>text2</span>
+      <span>text3</span>
+
+
+      <!-- Parent Element -->
+      <div class="container">
+        
+      </div>
+
+</body>
+</html>

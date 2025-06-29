@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <style>
+        .container {
+            width: 960px;
+            margin: 0 auto;
+            background-color: brown;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(49, 105, 207);
+            margin: 10px;
+        }
+        #Mybox {
+            width: 100px;
+            height: 100px;
+            background-color: darkorchid;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum quos voluptatum consectetur eum aspernatur quibusdam debitis? Quia provident maiores, deserunt ducimus ullam temporibus magni, commodi fugiat assumenda quas impedit nisi.</p>
+        
+        <div class="box">
+
+        </div>
+
+        <div class="box">
+
+        </div>
+    </div>
+
+    <!-- สามารถใช้Ref กับ javascriptได้ ใช้งานเหมือรกับ Class -->
+    <div id="Mybox">
+
+    </div>
+
+    <script>
+        let Mybox = document.getElementById("Mybox");
+
+        Mybox.addEventListener("Click", function() {
+            alert("Hello");
+        })
+    </script>
+    <footer> 
+        <a href="index.html">Go back index</a><br>
+        <a href="testcss.html">Go to CSS</a>
+    </footer>
+</body>
+</html>
